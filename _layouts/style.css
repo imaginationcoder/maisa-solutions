@@ -73,7 +73,7 @@ Class name automatically added to element */
 }
 
 .hexagon-shape {
-    background:url('../img/hexagon.svg');
+    background:url('{{ site.baseurl }}/img/hexagon.svg');
     width:220px;
     height:243px;
     margin:0 auto;
@@ -150,7 +150,7 @@ margin-top: 5px;
 
 /* contact form background image*/
 .contact_form_backgroung_img {
-    background-image:url('../img/world-map.png')
+    background-image:url('{{ site.baseurl }}/img/world-map.png')
 }
 .services_img img{
     width: 100%;

@@ -5,28 +5,28 @@ $(function() {
         var location = '/'
         switch ($(this).attr('href')) {
             case '#services':
-                location = '/services.html'
+                location = '/maisa-solutions/services.html'
                 break;
             case '#process':
-                location = '/process.html'
+                location = '/maisa-solutions/process.html'
                 break;
             case '#portfolio':
-                location = '/portfolio.html'
+                location = '/maisa-solutions/portfolio.html'
                 break;
             case '#our-pride':
-                location = '/pride.html'
+                location = '/maisa-solutions/pride.html'
                 break;
             case '#contact':
-                location = '/contact.html'
+                location = '/maisa-solutions/contact.html'
                 break;
             case '#web-development.html':
-                location = '/web-development.html'
+                location = '/maisa-solutions/web-development.html'
                 break;
             case '#mobile-development.html':
-                location = '/mobile-development.html'
+                location = '/maisa-solutions/mobile-development.html'
                 break;
             case '#cloud-computing.html':
-                location = '/cloud-computing.html'
+                location = '/maisa-solutions/cloud-computing.html'
                 break;
         }
         window.location = location
@@ -75,7 +75,7 @@ if(anchor !='') {
 
 // loading simplyScroll.js
 
-$.getScript("../js/simplyScroll.min.js", function(){
+$.getScript("/maisa-solutions/js/simplyScroll.min.js", function(){
 });
 
 $(function() {
